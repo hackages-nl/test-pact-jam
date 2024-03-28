@@ -1,0 +1,8 @@
+(begin-tx)
+(load "exercise-1.pact")
+
+(expect "Should add 2 numbers"
+    4
+    (math-calculator.add 2 2))
+
+(commit-tx)
