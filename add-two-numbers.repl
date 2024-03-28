@@ -1,5 +1,5 @@
 (begin-tx)
-(load "exercise-1.pact")
+(load "add-two-numbers.pact")
 
 (expect "Should add 2 numbers"
     4
